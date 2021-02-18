@@ -30,7 +30,7 @@ nav ul li{
     text-align: center;
     background-color: black;
     color: white;
-    margin: 100px 504px 0px 320px;
-    padding: 10px 0px 20px 0px;
+    margin: 100px 504px 0px 320px; /*top right bottom left */
+    padding: 10px 0px 20px 0px; /* top right bottom left */
     
 }
