@@ -70,9 +70,13 @@ img{
 
 .fa{
     color: #3c73ff;
+    /* background-color: #004b89;
+    color: white;
+    font-weight: bold; */
 }
 
 .random-btn{
     outline: none;
 }
+
 
