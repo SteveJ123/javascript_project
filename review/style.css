@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.title, .review{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.review{
+    width: 600px;
+    height: 360px;
+    margin: auto;
+    /* border: 1px solid antiquewhite; */
+    /* background-color: white; */
+    /* background: #f3f3f3; */
+    background: white;
+  border-radius: 1rem;
+}
+
+h2{
+    margin: 4px;
+    color: white;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.underline{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #56ef24;
+    
+}
+
+img{
+    background-image: url("./person-1.jpeg");
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 46% 50%; 
+}
+
+#job{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.prev-btn, .next-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.random-btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+}
+
