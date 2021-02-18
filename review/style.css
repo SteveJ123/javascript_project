@@ -32,7 +32,7 @@ h4{
 .underline{
     display: inline-block;
     width: 40px;
-    border-bottom: 2px solid #56ef24;
+    border-bottom: 2px solid #3c73ff;
     
 }
 
@@ -70,5 +70,9 @@ img{
 
 .fa{
     color: #3c73ff;
+}
+
+.random-btn{
+    outline: none;
 }
 
