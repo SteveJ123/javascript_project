@@ -253,19 +253,3 @@ Modal
 
 
 
-.open-div{
-    visibility: visible;
-}
-
-.close-div{
-    visibility: hidden;
-    
-}
-
-.applyHidden{
-    visibility: hidden;
-}
-
-.applyVisible{
-    visibility: visible;
-}
