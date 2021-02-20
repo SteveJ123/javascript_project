@@ -1,4 +1,5 @@
 let textColor = document.querySelector(".textColor");
+let containerDiv = document.querySelector(".container");
 console.log(textColor);
 
 function toggleClass(){
@@ -7,4 +8,5 @@ function toggleClass(){
     // let checkNewClass = textColorClass.contains("newClass");
     // console.log("checkNewClass", checkNewClass);
     textColor.classList.toggle("newClass");
+    // containerDiv.classList.toggle("newContainerClass");
 }
