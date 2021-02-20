@@ -1,4 +1,4 @@
-const accordion = document.querySelectorAll(".contentBx");
+const accordion = document.querySelectorAll(".label");
 
 for(let i=0; i<accordion.length; i++){
     accordion[i].addEventListener("click", function(){
