@@ -14,3 +14,4 @@ closeBtn.addEventListener("click", function () {
   modal.classList.remove("open-modal");
 });
 
+
