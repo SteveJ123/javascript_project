@@ -8,8 +8,12 @@ body{
     
 }
 
-.container-menu .menu{
+.container-menu .menu #all:hover,
+.container-menu .menu #breakfast:hover,
+.container-menu .menu #lunch:hover,
+.container-menu .menu #shakes:hover{
     cursor: pointer;
+    color: gray;
 }
 
 /* .container-menu .menu:hover{
