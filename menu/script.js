@@ -96,12 +96,12 @@ const menu = [
   <div class="display-card">
   <div class="title-price">
       <img src="${item.img}"/>
-      <div style="display: flex;">
+      <div class="title-price-header">
       <h2>Title: "${item.title}"</h2>
       <h2>price: "${item.price}"</h2>            
       </div>
       <div class="description" style="display: flex;">
-          <p>${item.desc}</p> 
+          <p class="item-desc">${item.desc}</p> 
       </div>
                   
   </div>

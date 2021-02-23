@@ -45,14 +45,21 @@ body{
 
 .container .display-list {
     /* background-color: blue; */
-    width:342px;
+    width:380px;
     display: inline-block;
+    /* padding-left: 2px; */
     margin-right: 15px;
 }
 
-.container .display-list .title-price
+.container .display-list .title-price .title-price-header
 {
-    /* display: flex; */
+    display: flex;
+    padding-left: 4px;
+}
+
+.container .display-list .title-price .description
+{
+    padding-left: 4px;
 }
 
 .container .display-card
