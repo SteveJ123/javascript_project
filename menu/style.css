@@ -44,9 +44,10 @@ body{
 }
 
 .container .display-list {
-    background-color: blue;
-    width:300px;
-    display: inline-block
+    /* background-color: blue; */
+    width:342px;
+    display: inline-block;
+    margin-right: 15px;
 }
 
 .container .display-list .title-price
@@ -54,9 +55,18 @@ body{
     /* display: flex; */
 }
 
+.container .display-card
+{
+    margin-bottom: 26px;
+}
+
 img
 {
     width: 80px;
     height: 80px;
     float: left;
+}
+
+h2{
+    font-size: 14px;
 }

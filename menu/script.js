@@ -90,9 +90,9 @@ const menu = [
     displayItems(menu);
   })
 
-  function displayItems(menu){
-    let displayAll = menu.map(function(item){
-  let itemContent = `<div class="display-list" style="width:300px; display: inline-block">
+  function displayItems(menuItems){
+    let displayAll = menuItems.map(function(item){
+  let itemContent = `<div class="display-list">
   <div class="display-card">
   <div class="title-price">
       <img src="${item.img}"/>
@@ -112,7 +112,7 @@ const menu = [
 
   return itemContent;
     });
-    container.innerHTML = displayAll;
+    container.innerHTML = displayAll.join("");
   }
 
   menuList.forEach(function(item){
