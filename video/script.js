@@ -14,3 +14,10 @@ btn.addEventListener("click", function(e){
         video.play();
     }
 })
+
+// hide preloader
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function(){
+    preloader.classList.add("hide-preloader");
+})
