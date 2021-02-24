@@ -69,6 +69,9 @@ body{
 {
     display: flex;
     padding-left: 4px;
+    justify-content: space-between;
+    padding-right: 40px;
+    text-transform: capitalize;
 }
 
 .container .display-list .title-price .description

@@ -97,8 +97,8 @@ const menu = [
   <div class="title-price">
       <img src="${item.img}"/>
       <div class="title-price-header">
-      <h2>Title: "${item.title}"</h2>
-      <h2>price: "${item.price}"</h2>            
+      <h2>${item.title}</h2>
+      <h2>$${item.price}</h2>            
       </div>
       <div class="description" style="display: flex;">
           <p class="item-desc">${item.desc}</p> 
