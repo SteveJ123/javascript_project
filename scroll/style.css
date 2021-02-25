@@ -1,0 +1,69 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-container{
+    position: fixed;
+    width: 100%;    
+}
+
+.header-container, .menu-list ul{    
+    display: flex;    
+    justify-content: space-between;
+    background-color:#464888;
+    box-shadow:0px 1px 5px rgba(0,0,0,0.4);       
+}
+
+.menu-list ul{
+    list-style: none;    
+}
+
+a{
+    color: white;
+}
+.menu-list ul li {
+    padding: 20px;   
+}
+
+.banner-container{
+    background: url('./hero-bcg.jpeg');
+    height: 450px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.text-container{    
+    width: 400px;
+    height: 200px;
+    /* color: white; */
+}
+
+#home, #service, #about, #contact, #footer{
+    text-align: center;
+    /* width: 100vw; */
+    height: 200px;    
+    padding: 80px 40px 40px 40px;
+    margin: 10px auto 10px auto;
+
+    background-color: #464888;
+    box-shadow:0px 1px 5px rgba(0,0,0,0.4);       
+
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+    height: 90px;
+}
